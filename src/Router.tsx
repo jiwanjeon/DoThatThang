@@ -6,7 +6,7 @@ import Footer from './components/Footer/Footer';
 
 function Router() {
   return (
-    <BrowserRouter basename="/commento">
+    <BrowserRouter basename="/DoThatThang">
       <Nav />
       <Routes>
         <Route path="/" element={<Main />} />
