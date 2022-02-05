@@ -1,7 +1,7 @@
 import styled, { css } from 'styled-components';
 import { useMediaQuery } from 'react-responsive';
 
-import { maxWidth } from '../../../styles/mixin';
+import { maxWidth } from '../../styles/mixin';
 
 const HeaderSection = () => {
   const isMobile = useMediaQuery({ query: '(max-width: 680px)' });

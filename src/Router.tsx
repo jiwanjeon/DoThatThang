@@ -1,19 +1,19 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Nav from './components/Nav/Nav';
+// import Nav from './components/Nav/Nav';
 import { Main } from './main/Main';
 import Detail from './detail/Detail';
-import Footer from './components/Footer/Footer';
+// import Footer from './components/Footer/Footer';
 
 function Router() {
   return (
     <BrowserRouter basename="/DoThatThang">
-      <Nav />
+      {/* <Nav /> */}
       <Routes>
         <Route path="/" element={<Main />} />
         <Route path="/main" element={<Main />} />
         <Route path="/detail" element={<Detail />} />
       </Routes>
-      <Footer />
+      {/* <Footer /> */}
     </BrowserRouter>
   );
 }
