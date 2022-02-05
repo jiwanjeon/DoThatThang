@@ -20,7 +20,7 @@ interface ICamp {
 // }
 
 export const Main: React.FC<ICamp> = ICamp => {
-  return <Wrapper>Hi there</Wrapper>;
+  return <Wrapper>Hi there this is main page</Wrapper>;
 };
 
 const Wrapper = styled.div``;
