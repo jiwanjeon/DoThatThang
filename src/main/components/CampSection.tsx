@@ -1,8 +1,8 @@
-import { CampCard } from '../../../components';
+import { CampCard } from '../../components';
 import styled from 'styled-components';
 
-import fonts from '../../../styles/fonts';
-import { ICamp } from '../../../types/type';
+import fonts from '../../styles/fonts';
+import { ICamp } from '../../types/type';
 
 interface IProps {
   title: string;
