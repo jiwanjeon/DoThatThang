@@ -20,7 +20,11 @@ interface ICamp {
 // }
 
 export const Main: React.FC<ICamp> = ICamp => {
-  return <Wrapper>Hi there this is main page</Wrapper>;
+  return (
+    <Wrapper>
+      Hi there this is main page(check master branch update or not)
+    </Wrapper>
+  );
 };
 
 const Wrapper = styled.div``;
