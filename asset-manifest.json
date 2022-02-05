@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/DoThatThang/static/css/main.e6c13ad2.css",
+    "main.js": "/DoThatThang/static/js/main.06107d35.js",
+    "index.html": "/DoThatThang/index.html",
+    "main.e6c13ad2.css.map": "/DoThatThang/static/css/main.e6c13ad2.css.map",
+    "main.06107d35.js.map": "/DoThatThang/static/js/main.06107d35.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.06107d35.js"
+  ]
+}
